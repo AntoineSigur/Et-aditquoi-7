@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            font-family: "SangBleuVersailles";
+        }
+
+        a {
+            text-decoration: none;
+            color:#fff;
+        }
+
+        .wrapper {
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-gap: 1vmin;
+            grid-template-columns: 20vw 30vw 30vw 20vw; 
+            background-color: #fff;
+            color: rgb(45, 248, 45);
+        }
+
+        .box {
+            background-color: rgb(250, 255, 255);
+            color: rgb(45, 248, 45);
+            padding: 20px;
+            font-size: 150%;
+            display:flex;
+            align-items: center;
+        }
+
+        .a {
+            grid-column: 1;
+            grid-row: 2;
+            justify-content: center;
+            text-align: center;
+        }
+        .c {
+            grid-column: 1;
+            grid-row: 3;
+            justify-content: center;
+            text-align: center;
+        }
+        .d {
+            grid-column: 1;
+            grid-row: 4;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .e {
+            grid-column: 1;
+            grid-row: 5;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .f {
+            grid-column: 1;
+            grid-row: 6;
+            justify-content: center;
+            text-align: center;
+        }
+        .g {
+            grid-column: 1;
+            grid-row: 7;
+            justify-content: center;
+            text-align: center;
+        }
+        .y {
+            grid-column: 1;
+            grid-row:8;
+            justify-content: center;
+            text-align: center;
+        }
+        .h {
+            grid-column: 1;
+            grid-row: 9;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .b {
+            grid-column: 2;
+            grid-row: 2;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .i {
+            grid-column: 3;
+            grid-row: 2;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .j {
+            grid-column: 2;
+            grid-row: 3;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .k {
+            grid-column: 3;
+            grid-row: 3;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .l {
+            grid-column: 2;
+            grid-row: 4;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .m {
+            grid-column: 3;
+            grid-row: 4;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .n {
+            grid-column: 2;
+            grid-row: 5;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .o {
+            grid-column: 3;
+            grid-row: 5;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .p {
+            grid-column: 2;
+            grid-row: 6;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .q {
+            grid-column: 3;
+            grid-row: 6;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .r {
+            grid-column: 2;
+            grid-row: 7;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .s {
+            grid-column: 3;
+            grid-row: 7;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .t {
+            grid-column: 2 /span 2;
+            grid-row: 9;
+            background-color: rgb(255, 255, 255);
+            color:rgb(45, 248, 45);
+            display:flex;
+            align-items: center;
+        }
+        .z {
+            height: 15vh;
+            margin-bottom: 7vh;
+            grid-column: 1 / span 4;
+            grid-row: 1;
+            background-color: rgb(45, 248, 45);
+            color:rgb(255, 255, 255);
+            justify-content: center;
+            font-size: 300%;
+        }
+
+        .a:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .c:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .d:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .e:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .f:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .g:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .h:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .y:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        @font-face {
+            font-family: "SangBleuVersailles";
+            src: url("SangBleuVersailles-Regular.otf");
+        }
+        
+
+    </style>
+</head>
+<title>Horoscope</title>
+
+<body>
+
+    <div class="wrapper">
+        <a class="box z">ET ÇA DIT QUOI #7</a>
+        <a href="ECDQedito.html" class="box a">Edito</a>
+        <a href="index.html" class="box c">Horoscope</a>
+        <a href="ECDQpetitmot.html" class="box d">Le petit mot de...</a>
+        <a href="ECDQentretiens.html" class="box e">Entretien avec Lichel François</a>
+        <a href="ECDQshot.html" class="box f">Shot story</a>
+        <a href="ECDQecdq.html" class="box g">Entretiens ECDQ</a>
+        <a href="ECDQdiy.html" class="box y">Tuto DIY</a>
+        <a href="ECDQsandwich.html" class="box h">Club Sandwich</a>
+        <a class="box b">BÉLIER: Vous auriez du faire des provisons de pâtes.</a>
+        <a class="box i">TAUREAU: Vous avez besoin de prendre l’air, dommage...</a>
+        <a class="box j">GÉMEAU: Lavez vous les mains, ça vous changera. On vous a vu les crados qui ne se lavent pas les mains en sortant des toilettes.</a>
+        <a class="box k">CANCER: Faites la vaiselle, ça va vous occuper.</a>
+        <a class="box l">LION: L’avantage, c’est que vous n’avez plus besoin d’une excuse pour ne pas sortir.</a>
+        <a class="box m">VIERGE: Vous pouvez utiliser l’argent que vous ne dépenssez pas à l’Escale pour vous payer Minecraft premium.</a>
+        <a class="box n">BALANCE: Vous vous sentez casagner.</a>
+        <a class="box o">SCORPION: Deliveroo encore en service, vous en profitez.</a>
+        <a class="box p">SAGITTAIRE: Vous vous sentez à l'aise chez vous, mais attention aux vis-à-vis.</a>
+        <a class="box q">CAPRICORNE: Vous vous ennuyez, mais ce n’est pas une bonne raison pour envoyer un texto à votre ex.</a>
+        <a class="box r">VERSEAU: Pokémon Go n’est pas une bonne excuse pour sortir.</a>
+        <a class="box s">POISSON: C’est peut être le moment de ressortir votre SkyBlog.</a>  
+        <a class="box t"> Un nouvel horoscope la semaine prochaine, restez connectés !</a>
+         
+    </div>
+
+
+
+</body>
+
+</html>

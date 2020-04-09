@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            font-family: "SangBleuVersailles";
+        }
+
+        a {
+            text-decoration: none;
+            color:#fff;
+        }
+
+        .wrapper {
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-gap: 1vmin;
+            grid-template-columns: 19vw 60vw 19vw;
+            background-color: #fff;
+            color: rgb(45, 248, 45);
+        }
+
+        .box {
+            background-color: rgb(250, 255, 255);
+            color: rgb(45, 248, 45);
+            justify-content: center;
+            padding: 20px;
+            font-size: 150%;
+            display:flex;
+            align-items: center;
+        }
+
+        .a {
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .c {
+            grid-column: 1;
+            grid-row: 3;
+        }
+        .d {
+            grid-column: 1;
+            grid-row: 4;
+        }
+        .e {
+            grid-column: 1;
+            grid-row: 5;
+            text-align: center;
+        }
+        .f {
+            grid-column: 1;
+            grid-row: 6;
+        }
+        .g {
+            grid-column: 1;
+            grid-row: 7;
+        }
+        .y {
+            grid-column: 1;
+            grid-row:8;
+        }
+        .h {
+            grid-column: 1;
+            grid-row: 9;
+        }
+
+        .b {
+            grid-column: 2;
+            grid-row: 2 / span 10;
+            background-color: rgb(255, 255, 255);
+            color:rgb(0, 0, 0);
+        }
+        .z {
+            height: 15vh;
+            margin-bottom: 4vh;
+            grid-column: 1 / span 4;
+            grid-row: 1;
+            background-color: rgb(45, 248, 45);
+            color:rgb(255, 255, 255);
+            font-size: 300%;
+        }
+
+        .a:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .c:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .d:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .e:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .f:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .g:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .h:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        .y:hover {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+        @font-face {
+            font-family: "SangBleuVersailles";
+            src: url("SangBleuVersailles-Regular.otf");
+        }
+        
+
+    </style>
+</head>
+<title>Entretiens avec Michel et François</title>
+<body>
+
+    <div class="wrapper">
+        <a class="box z">ET ÇA DIT QUOI #7 </a>
+        <a href="ECDQedito.html" class="box a">Edito</a>
+        <a href="ECDQhoroscope.html" class="box c">Horoscope</a>
+        <a href="ECDQpetit.html"class="box d">Le petit mot de...</a>
+        <a href="index.html" class="box e">Entretien avec Michel et François</a>
+        <a href="ECDQshot.html" class="box f">Shot story</a>
+        <a href="ECDQecdq.html"class="box g">Entretiens ECDQ</a>
+        <a href="ECDQdiy.html"class="box y">Tuto DIY</a>
+        <a href="ECDQsandwich.html" class="box h">Club Sandwich</a>
+
+        <a class="box b">
+            &nbsp;&nbsp;&nbsp;H.M &nbsp; &nbsp; &nbsp;En fait c’est Jean qui nous avait parlé de vous deux. Il me disait que pour le journal ça pouvait être intéressant, pour les étudiants, de savoir ce qu’il se passait avant avec des anciens... <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Ce que sont devenus les dinosaures. <br>
+            &nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp; C’est ça, il l’a pas dit comme ça mais... <br>
+            &nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; Non mais faut le dire, faut dire les choses comme elles sont ! <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Alors pour présenter François et moi, on a le même âge. <br>
+            &nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; Non non non, il est un peu plus agé ! <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Oui la semaine prochaine j’ai un an de plus, arrête tes conneries, donc 73 grosso modo. <br>
+            &nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; Moi j’ai 72 et lui il a 73ans. <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Et donc on a fait 30 ans ensemble, Francois est arrivé à l’école 10 ans avant moi. <br>
+            &nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp; C’était quoi les années à peu près ? <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; T’es arrivé en 73 toi, et moi en 83, ça rigole pas hein ! <br>
+            &nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; Vous étiez pas nés hein ? <br>
+            &nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp; Et non on était pas né. <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Donc c’est pour ça qu’on est vraiment des dinosaures ! Alors François lui, vas y raconte, comment tu as commencé ta carrière à l’ecole ? <br>
+            &nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; Je suis rentré déjà à un poste plus au moins administratif, à l’époque on avait même des jeunes de 3ème. C’etait très scolaire. Il y avait des sections de commi d’architectes, dessinateurs de bâtiments, on avait un régime assez strictes et moi j’étais surveillant général. <br>
+            &nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp; Ah oui donc ça n’avait rien à voir avec maintenant ! <br>
+            &nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; Au fur et à mesure des années, le régime s’est assoupli, on avait plus que des étudiants, mon rôle étant tombé en desuétude et entre temps j’avais déjà commencé à basculer tout doucement, je faisais de la maquette, c’était avant le design, et après il y a eu un besoin pour la photo, je suis devenu assistant photo. <br>
+            &nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp; Vous aviez une formation avant ? <br>
+            &nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; Non, je me suis formé à l’école. <br>
+            &nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp; Ok, trop bien ! <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; C’était à l’époque, l’école régionale des Beaux Arts. <br>
+            &nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp; Vous avez vécu la transition des Beaux-Arts à l’ESAD. <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Voila, c’était en 90. <br>
+            &nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp; C’était quoi concrêtement le changement ? <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; C’est à dire que jusqu’à l’arrivé de l’ancien directeur en 90, c’etait l’école regionale des Beaux-Arts, une école d’art, avec toutes ses matières, dessins, croquis même les lettres. Moi je suis arrivé 10 ans après, en 83 c’etait déjà plus l’ancienne école, plus moderne, je suis arrivé parce que j’avais une formation en audio- visuelle, ça faisait des années que je bossais dans la vidéo et l’audio mais à l’époque, attention, c’etait des magétoscopes, c’était des grosses cassettes, des FR3. <br>
+            &nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp; Jean nous disait que vous coupiez les bandes à la mains avec Gérard Cairaschi. <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; J’ai commencé comme ça avec les bandes, ça c’était pour le son, mais pour la vidéo, c’était des outils va- chement sophistiqués des gros magnétoscopes, avec des programmes pour que les bandes se synchronisent, c’était le même style que FR3 à la télévision, c’était le même équipement. <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*François propose du saucisson* <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Quand je suis arrivé, du fait que l’école venait de se doter d’un outil hyper sophistiqué vidéo, à l’époque il y avait pas l’informatique, pas d’ordinateurs, que dalle, pas de portables. <br>
+            &nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp; C’était beaucoup plus manuel du coup ? <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Non, non c’était spécial. <br>
+            &nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’était moderne mais pour l’époque quoi.<br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Vous vous avez connu le VHS ? <br>
+            &nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp; Oui. <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Voila, en gros c’était des cassettes plus grosses que le VHS, meilleure qualité et avec des mécanismes qui faisait que pour faire du montage il y avait un magnétoscope lecteur et un magnétoscope enregistreur et un pupitre qu’on programmait et une séquence qu’on avait choisis là, un début, une fin, se mettait en route et quand elle arrivait au début elle enclenchait le magnétoscope enregistreur, donc c’était à la volée, maintenant avec les outils que vous avez c’est un peu le même style mais à l’époque c’était du concrêt. <br>
+            &nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp; Tout ça se faisait à Cathé ? ou il y avait déjà Franchet à l’époque ? <br>
+            &nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp; Il y avait déjà les deux sites ? <br>
+            &nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; Franchet, moi j’ai pas connu. <br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Quand je suis arrivé, François était au sous sol. <br>
+            &nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; Près des cabinets !<br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Oui il faisait du développement en tirage, tu raconteras.<br>
+            &nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Oui je raconterai.<br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Moi j’étais là où est Amélie, c’etait mon bureau, d’ailleurs quand je suis arrivé, la salle n’existait pas,c’était qu’une grande salle, entre là où il y a les salles infos et l’atelier photo.<br>
+            &nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Comme les salles du dessous en fait.<br>
+            &nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Voilà, c’est moi qui est fait les plans, quand l’informatique est arrivé pour pouvoir cloisonner, et puis j’ai fait mon bureau là pour pouvoir mettre en sécurité les trucs qu’on pouvait chourrer. Donc ça c’est en 83. <br>*Blanc*<br>
+Qu’est ce qu’il y a j’ai dit une connerie ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Absolument pas Michel.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Non parce que je raconte beaucoup de conneries.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Il commence à perdre la tête.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Normal j’ai 6 mois de plus que toi.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Saucisson sur la table*<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Eh mangez les jeunes !<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Le problème, enfin c’est pas un problème, c’est qu’on a fait 30 ans en commun, François était au sous-sol et j’étais au deuxième alors on communiquait, on est des vieux potos.<br>
+&nbsp;&nbsp;&nbsp;H.M&nbsp;&nbsp;&nbsp; Vous vous êtes rencontrés à l’ESAD ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Oui oui, ça fait 30 ans qu’on se voit, qu’on a prit l’habitude de boire tous les vendredi soirs, même quand on était en activité et qu’on a continué depuis qu’on est en retraite, 30 ans qu’on se voit toutes les semaines, tu te rends compte ? C’est dingue hein ! Lui il a sa vie de famille, moi j’ai la mienne, mais on a gardé ce rythme là. Alors qu’est ce qu’on peut vous raconter d’autres ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; Si je leur parlais un peu de moi ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Vas y , parle de la photo, parce que la modification la plus spectaculaire c’est François qui l’a vecu parce que moi j’etais déjà dans le bain, on parlera après de l’informatique, il n’y avait pas d’informatique.<br>
+&nbsp;&nbsp;&nbsp;H.M&nbsp;&nbsp;&nbsp; Ludo nous en a parlé un peu.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;À l’époque je regnais dans le sous-sol, alors je sais pas si ...<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est la salle obscure maintenant ?<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Le nom qu’elle a c’est la salle obscure ou en tout cas à coté des toilettes il y a une salle.<br>
+&nbsp;&nbsp;&nbsp;F.A&nbsp;&nbsp;&nbsp; On descend les escaliers, à coté de la soufflerie.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Oui, on monte chez Christian de l’autre côté.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Chez Christian le gardien ?<br>
+&nbsp;&nbsp;&nbsp;G.A&nbsp;&nbsp;&nbsp; Oui.<br>
+M&nbsp;&nbsp;&nbsp; Il va bien lui ?<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Oui très bien ! Il fait la fête avec nous parfois.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Il l’a toujours faite de toute façon ! Et du coup là c’était mon bureau, la salle de prise de vue et aussi quelques postes d’ordinateurs et à la fin l’imprimante qui était là.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;À côté des toilettes ?<br>
+&nbsp;&nbsp;&nbsp;F.A&nbsp;&nbsp;&nbsp; Oui la salle obscure qui est devenue une salle de projection maintenant, que Gérad a squatté.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Ou la salle Arduino.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Ah bon c’est cette salle là maintenant ?<br>
+&nbsp;&nbsp;&nbsp;F &nbsp;&nbsp;&nbsp;De l’autre coté il y a une salle à gauche ça doit être la reserve maintenant pour l’outillage. Quand on s’en va vers le garage, vers chez Fredo.<br>
+&nbsp;&nbsp;&nbsp;H.M&nbsp;&nbsp;&nbsp; Ah oui, je crois qu’on parle pas de la même chose, la découpe de bois.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Découpe laser.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Alors le bois, tu descends par l’autre côté, par la rue Henry Menu, t’as le bois, après quand tu descends trois marches, t’as fredo, le métal, ça c’était un labo.<br>
+&nbsp;&nbsp;&nbsp;G.A&nbsp;&nbsp;&nbsp;D’accord !<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;À côté, il y a la salle où il y a la machine à faire des machins.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;La machine 3D tout ça ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Voila c’est ça, j’appelle ça la machine à machins parce que moi on m’a viré progressivement de tout.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Ok<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;La salle qu’il y a après, il y a une grande salle encore.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Qui donne sur la cour ?<br>
+&nbsp;&nbsp;&nbsp;G.M &nbsp;&nbsp;&nbsp;Bah maintenant c’est l’atelier bois Non ? C’est encore après ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Quand tu descends la rampe, la rampe de la cours, t’as l’atelier bois, bon de l’atelier bois tu sors t’as trois petites marches, t’as Fredo, atelier métal, à côté il y a la salle 3D.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Oui, 3D, prototipage.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Oui voilà, et après il y a encore une grande salle.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Avant l’escalier.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Si, si si si euh bah non du coup c’est celle là la salle prototipage.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Ouais ils ont décalé en fait.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Ah bon d’accord.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Fred il a deux salles maintenant.<br>
+Il y en a une avec que des machines, une avec son bureau et la salle d’après c’est celle du prototipage.<br>
+&nbsp;&nbsp;&nbsp;F &nbsp;&nbsp;&nbsp;Moi j’avais tout ça, avant c’était la céramique, puis elle a été supprimé.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Maintenant c’est au rez-de-chaussé à côté de la salle Champagne, au dessus de chez Maxime.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Juste au dessus de l’atelier bois.<br>
+&nbsp;&nbsp;&nbsp;F &nbsp;&nbsp;&nbsp;La mezzanine.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Oui exactement.<br>
+&nbsp;&nbsp;&nbsp;F &nbsp;&nbsp;&nbsp;Et moi je régnais sur tout ça, c’etait des salles de tirages et cette fameuse grande salle c’était ma salle grand tirage où j’avais des gros agrandisseurs que je basculais à l’horizontal et où je projetais sur les murs et on produisait du papier qui faisait 1m10 de large sur la hauteur qu’on voulait et je développais ça dans une pièce qui a été supprimé où il y avait des bacs et des grandes gouttières.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Le développement de toutes ces images et de toutes ces photos c’était argentique ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Il y avait que de l’argentique.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Il a basculé vers l’informatique à la fin, numérique.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;On a eu des initiations à l’argentique mais c’est à Franchet qu’on nous l’a fait faire.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Oui oui, tandis qu’avant je la faisais là, dans ces salles là.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Avec Amélié ?<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Oui c’est ça.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Avant Amélie c’était moi, donc vous avez gagné, qui est charmante d’ailleurs Amélie, j’ai eu des très bons contacts avec elle quand elle est arrivée, elle est gentille comme tout.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Alors vous vous êtes en quelle année là ?<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;On est en 3ème année, année de diplôme.<br>
+3ème année Graphisme, au deuxième étage à coté d’où vous travailliez.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Moi qui m’a remplacé, deux remplacants, Jean m’a remplacé en audiovisuel et comme je cummulais deux postes, en informatique maintenant c’est Ludo, il y en a eu un autre avant qui est pas resté très longtemps.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Oui on s’en souvient même plus.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp; Et puis le 1er qui m’a remplacé c’est David, vous l’avez peut-être pas connu non plus ?<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Non je crois pas.<br>
+Mais c’est vrai que Ludo c’est le seul qui a son poste précis mais qui fait beaucoup d’autres choses en fait, il vient nous aider pour tout et n’importe quoi, du coup on a plus de contact avec lui.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Il est à l’écoute de ce qu’on demande.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp; C’est pas que l’informatique, travailler sur les ordis, il y a plus, donc c’est vrai on le connait bien.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;J’ai bien compris qu’il était bien perçu.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Alors que l’ancien s’occupait vraiment des problèmes wifi par exemple du coup on avait pas de liens particuliers avec lui.
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Ça c’est important, c’est pour ça que nous on a bien vécu notre carrière parce qu’on a toujours donné dans le plus avec les étudiants, une complicité.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;J’ai fait l’assistante sociale moi.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est une petite famille, c’est agréable.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;J’étais facilement le confident.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;François au départ, quand je suis arrivé, donc pendant 10 ans ça était l’audivisuel traditionnel, le montage tout ça, cassette tout le bordel et est arrivé l’informatique début des années 90.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est vous qui avez installé l’informatique ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;J’ai commencé à l’installer, au départ on a acheté six ordinateurs, quand je suis parti, il y en avait une centaine. Donc j’ai fait monté progressivement le truc parce que tout a basculé vers l’informatique<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’était un besoin de l’école ou c’est vous qui avez voulu installer ça à l’ESAD ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Moi c’était marche ou crève, j’aurais été viré autrement, parce qu’il y a eu une évolution technologique tellement dingue que je pouvais pas rester avec mon acquis des bandes et tout ça parce que le directeur m’aurait dit «Bon bah merci mais..».<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp; Mais d’un autre côté, l’un empêche pas l’autre, ça permet aussi aux étudiants d’acquerir des comptétences qu’ils auraient pas forcement dans d’autres écoles.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Un savoir faire.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Un savoir faire qui se perd quelque part.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Pour l’argentique oui.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Pour moi ce qui m’a sauvé c’est qu’ils ont conservé jusqu’à l’initiation à la photo argentique, prise de vue, dévelopement de pelicule et tirage photo.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Mais ça c’est dommage qu’on le fasse pas plus souvent.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Tandis que moi c’était cuit, quand les cassettes et les caméscopes ont été abandonné, les moyennes les grosses cassettes, vous avez pas connu vous devez être trop jeunes, les cassettes DV, les caméscope DV.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;C’était audio ça ?<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Non tu sais il y avait des camescopes et il y avait un rabas sur le côté, quand j’étais petite en vacances mon père il filmait avec ça, tu mettais comme une cassette radio sur le côté.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Quand ça c’est terminé, que l’informatique a tout bouffé, il a fallu que je m’y mette, enfin je m’y suis mis progressivement donc on a tout laissé tombé et on a basculé vers l’informatique.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;En vous formant tout seul ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;En faisant des stages bien sûr et puis j’ai vachement bossé tout seul.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Parce que Ludo par exemple il est formé il est diplômé en informatique, alors que là ça veut dire tout apprendre tout seul.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Oui alors que moi c’était le cinéma, la vidéo, j’ai fait des courts-métrages, en film pellicule.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Et vous avez une pratique artistique à côté ou c’est plus technique pour vous ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;J’étais plus technique, j’ai une formation un peu artistique, j’ai fait des courts-métrages, j’en ai fait avec des étudiants d’ailleurs, courts-métrages que j’ai fait mais pas Beaux arts, traditionel, avec une histoire, avec des acteurs, moi je jouais, j’avais une étudiante qui jouait ma fille, je mettais en scène mais je cherchais des subventions, pour faire du cinéma traditionnel, narratif.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Et vous, François, c’était de la photo artistique ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Non de la photo pur et dur, un technicien.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Vous partiez pas le week-end pour faire des photos pour vous par exemple ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;J’ai passé toute ma carrière dans les sous-sol, donc le week-end je remontais à la surface.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;On faisait binôme avec Gérard Cairachi, il est arrivé à peu près à la même époque que moi, un an avant moi.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Ça fait longtemps quand même, enfin longtemps..<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Oui ! Gérard, lui, c’est un plasticien moi je suis plus technicien.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Lui il a été recompensé pour son travail.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Ah oui il a fait une carrière plastique, alors que moi c’est purement un hobbie, j’étais technique à l’école, bon vers la fin la frontière est un peu floue, donc plûtot technicien comme François. Gérard, lui, c’etait artistique.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est vrai, nous qui sommes pas en Art on pouvait l’avoir en option vidéo, qu’on faisiat avec lui, en 1er année c’est plus artistique que technique.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Il nous laissait assez libre, expérimenter un peu à la fois la pratique du logiciel à la fois la vidéo.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Oui maintenant il maîtrise Première Pro, tous les logiciels il les connait.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Oui, on l’a fait ensemble, on a progressé ensemble. C’est même moi qui lui ai mis un coup de pied aux fesses parce qu’au début il restait sur ses vieux trucs. Quand je suis arrivé j’étais un peu largé, j’avais une activité chez les jésuites, puis je débarque aux Beaux Arts, c’était l’époque de l’art corporel, les étudiants qui se tailladaient les veines devant la caméra, en disant «Je suis heureux, je suis heureux, je suis heureux».<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Il y en a un qui faisait du boudin avec son sang.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Un prof qui était un grand copain de Gérard, qui faisait des messes où il faisait du boudin avec son sang, Journiac et puis il est mort du Sida, c’est bizarre.. Donc moi au départ je débarque dans un monde comme ça.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Ça surprant, quand tu sors des jésuites.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Oui ça surprant, (jésuites) à l’époque c’était bien ça a dégéneré depuis que je suis parti mais tu vois je sortais d’un truc, les élèves en blaser et après à l’époque c’était les cheveux verts.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Et vous vous êtes retrouvé là tous les deux par envie, c’est vous qui avez choisi de rentrer dans une école d’art ou c’etait un hasard ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Moi j’ai eu une oportunité.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Il était mairie de Reims lui.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;J’étais à la mairie de Reims et avant j’étais dans la mécanique.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Moi, j’ai passé un concours, justement quand le matériel sophistiqué vidéo est arrivé, il y avait personne pour s’en occuper, donc il y a eu un recrutement national puis j’ai passé le concours et j’ai été pris.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Vous êtes tous les deux de Reims initialement ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Oui oui, enfin moi je suis de Reims lui c’est un étranger.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Je suis des Ardennes mais pas loin, donc voilà j’ai été pris.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Et ça vous a apporté de baigner dans le monde de l’art pendant 30 Ans ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Ah bah oui !<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Evidemment oui !<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Une ouverture d’esprit ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Ce qui nous a fait du bien, c’est travailler avec des jeunes pendant toute notre carrière parce que tout ça, ça bouscule bien !<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Vous nous avez bousté intellectuellement, bon maintenant il y a prescription, c’est chiant un étudiant, vous êtes demandeurs, c’est normal vous avez votre future carrière, il y a la pression des examens, les rendus, tout ces trucs là, donc vous êtes chiants.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;D’un côté c’est le système qui veut qu’on soit chiant.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Oui on vous oblige à être chiants.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Comme vous avez pas eu, et c’est normal, les informations techniques que vous voulez, vous nous sollicitiez François et moi toutes les 5 minutes pour des trucs à la con, enfin pas à la con mais des petits trucs où se dit qu’il pourrait le faire tout seul.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est vrai que Ludo, moi je l’emmerde 10 fois par jour pour des trucs nuls.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Mais ce qu’ils voulaient c’était le résultat tout de suite quoi.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Ouais ils voulaient qu’on le fasse à leur place, mais ça nous a bousté, on a gardé ce côté, poussé au cul par vous.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est vrai qu’il y a pas beaucoup de métiers qui offrent ça.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Moi je crois que c’est ça la force.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Oui puis même assistante sociale, être proche des élèves, c’est pas un prof de lycée qui peut avoir ce genre de proximité avec les élèves.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;On a quand même distribué une UV (ECTS) technique à tout le monde en début d’année, c’etait un peu symbolique.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;On les donnait à tout le monde.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Il suffisait de venir.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Ouais sauf ceux qui venaient pas quoi, faut pas non plus gâcher le métier quoi.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;On était pas sanctionnaire.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est une peu resté ça je pense, à ne pas vouloir sanctionner, tu veux venir, tu viens pour travailler sinon c’est ton problème.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Sauf les profs en culture.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Et encore ça va je trouve.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Euhh<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;On était des faciliteurs.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Parce que vous aimiez les étudiants ?<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;C’était un milieu qui changé aussi, c’est des étudiants qui ont besoin d’être créatifs tout le temps, c’est pas comme la fac ou des études beaucoup plus normées, plus carrées.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;À des moments c’était vraiment déjenté mais c’était formidable !<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Vous avez qui vous ? Vous avez Véronique Maire ? Vous êtes en graphisme.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;On est en graphisme, on a Brice Domingues, il est arrivé il y a 5 ans je crois.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;On a un prof de graphisme qui un peu comme vous, il fait evoluer la section.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Je l’ai pas eu moi j’étais déjà parti.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Il était comment Jean en tant qu’étudiant ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Il était bien parce qu’il s’intéressait un peu à la technique donc moi les gens qui s’intéresse à la technique..<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est pour ça que c’est devenu un technicien déjà, il nous fait des cours de deux heures pour savoir comment régler un truc sur Photoshop, c’est son truc un peu.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Je pratique un peu l’humour, j’avais mis sur la porte, du bureau d’Amélie, les «mots interdits», alors c’était «J’interdis le prénom Justin», et les gens disaient «Mais pourquoi Michel tu nous interdis Justin», parce que vous commencez toutes vos phrases par «juste un» !
+- Michel !!
+- J’ai pas le temps
+- Juste un truc..
+Hop, vous dites Justin, mot tabou, je le fais pas, alors ils faisaient des efforts.
+-Alors voilà..ça serait pour..
+C’était le genre de pratique que je faisais. Quand un étudiant était emmerdant, ou une etudiante, parce qu’il y avait égalité à ce niveau là, ils venaient voir Francçois au sous-sol, il leur disait «Bah non faut que tu vois avec Michel», donc là le temps que les étudiants montent François m’appelait - «Michel, je t’envoie *machine ou machin*, tu fais gaffe c’est un piège».<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;C’était l’esprit de l’école.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Et d’ailleurs par rapport à ça comment ça se passait la vie de l’école, à cette période, les étudiants comment ils étaient ? J’ai parlé avec Jean, il me disait que franchement à l’époque tout le monde faisait un peu ce qu’ilvoulait mais que derrière ça travaillé, ils s’amusaient bien.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;À l’epoque, ce que j’ai pas connu, c’était ton premier directeur. T’as fait 10 ans avec lui, c’était très scolaire.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;On a connu l’époque des pots des vendredi soirs.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;On les a toujours les pots le Vendredi soirs !<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Vous les avez encore ? Tant mieux !<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Mais c’est vrai qu’on nous a parlé d’une époque où ça partait en soirée dans toute l’école, alors que c’est vrai nous c’est assez reglementé, à telle heure tout le monde doit partir.<br>
+&nbsp;&nbsp;&nbsp;F &nbsp;&nbsp;&nbsp;Il faut aussi vous dire une chose, à une époque, pas celui que vous avez actuellement, avant, il y avait une directrice et avant on a eu un directeur alcoolo.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Complètement alcoolo.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Du coup c’était soirées sur soirées ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Il se torchait la gueule avec les étudiants, il était pété, c’était un fétard.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Je crois qu’il y a que en école d’art qu’on peut voir ce genre de choses !<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Mais c’est lui qui a crée le design, quand il est arrivé.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Il a fait venir Marie-Christine Berneur (?), une pointure, c’est elle qui a fait la tribune du 14 juillet. Elle a servi de caution pour instaurer le design à l’école.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Vous faites plus la semaine folle ?<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est la 1er année où ils le font pas.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Ils ont décidé de le faire tous les deux ans.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;C’est le directeur torché qui avait inventé ça.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Nous on l’a eu les autres année mais en arrivant au début de cette année on nous a appris tristement qu’on aurait pas de semaine folle, alors que c’était vraiment l’évenement de l’année.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Surtout c’était l’évenement qui permettait de réunir toutes les années, travailler ensemble.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Je sais pas si c’était encore comme ça mais la semaine folle, ils faisaient des groupes, en prenant des 1er des 2ème...<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Ouais c’est ça, c’était génial ! Mais il y a le BDE actuel, qui a instauré un workshop en mélangeant diffé- rentes années.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Justement parce qu’il y avait pas la semaine folle ils se sont dit on va faire un workshop autonome.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est encore un peu fébrile je pense, parce que c’est la 1er fois que des étudiants organisent leur propre workshop mais l’idée était bien là parce que tous les étudiants étaient dans la demande de la semaine folle, dans l’énergie que ça apporte, dans l’ambiance, le travail.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Et puis il y avait des intervenants qui connaissaient pas du tout l’école.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Qui ne connaissaient pas l’école, ni le fontionnement et en plus le matériel sortaient, le rendu c’était le Ven- dredi, une fois que le rendu était fait, c’était la fête, tout le matos qui était éparpillé partout.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;La fête, les vomis partout.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’était une semaine où on était tous stimulé intelectuellement, festivement enfin tout quoi !<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Le lundi matin le hall il était déguisé, on avait l’impression qu’il y avait un élevage de canard pendant tout le week-end là dedans, ça collé encore !<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;C’était une horreur.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Il y avait des ponchs dans les poubelles.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Il faudrait que vous passiez à un pot ! Un vendredi, après l’escale.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Le problème je vous le dis honnêtement dans 5min on se barre.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Mais si jamais vous voulez partir un peu plus tôt de l’escale une prochaine fois, le pot commence à 18h, vous passez une petit tête.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;On fait plus ça, parce que je crois à un moment quand on décroche.. enfin moi j’ai décroché.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Oui je comprends.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Moi j’ai continué, la preuve on s’est vu aux Portes Ouvertes.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Quand vous venez c’est pour faire un coucou de temps en temps ou c’est que aux journées portes ouvertes ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Non je viens qu’aux JPO.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Vous êtes venu aux JPO.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Oui il m’a vu quand je faisais un cache-cache, j’était derrière Ludo dans son bureau.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Vous en avez pensé quoi des JPO ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Nous on est pas surpris des JPO.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;J’imagine bien depuis le temps.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Ça fait des années que je viens, aux JPO uniquement, ce qu’il y a de marrant, c’est que je monte les esca- liers, je vais dans mon bureau, enfin le bureau d’Amélie, j’ai l’impression, enfin j’ai pas du tout l’impression d’être parti.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Ça fait combien de temps que vous êtes partis tous les deux ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;6ans, toi ça fait plus !<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;12.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Je suis allé jusqu’à 66 ans.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’était pas il y a si longtemps.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Moi j’ai pris ma retraite à 60 ans, j’ai eu la chance de faire un riche marriage, alors j’ai pas eu besoin de prolonger. Je vais vous dire, j’ai vite décroché des JPO parce que Michel il y va il y retrouve des gens, moi j’y retourne à part les toilettes y a pas grand monde, parce qu’en plus je sais pas ce qu’ils ont transferé à Franchet d’Esperey.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Vous êtes jamais allé à Franchet ? Ça vous intéresse pas ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;J’ai voulu y aller une fois, j’ai failli y aller.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;On y était en 1er année, les 1er y sont pendant un an, c’est un endroit incroyable !<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Quand on a fait le switch de le 1er année à la 2ème et qu’on est passé de Franchet à Cathé, Franchet qui est beaucoup plus ouvert, avec beaucoup plus de verdure, quand on sort il y a un espace fou, le soleil, on sort notre table on la met dehors, à Cathé c’est un peu moins possible.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est plus propre, en fait Frachet c’est vraiment l’endroit où on fait ce que tu veux.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;J’ai décroché moi quand il y a eu Franchet.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’était quand à peu près ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Il y a 10 ans.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;C’est quand même récent.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Je comprends, Raphaël Cuir, notre directeur actuel veut transférer l’école sur les quais et on aura plus de Cathé et Franchet, c’est vrai que si nous on revient dans 10 ans et qu’il y a plus notre école, je sais pas si on aura envie de voir la nouvelle école, parce que c’est pas chez nous.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Pour moi, tant que ça déménage pas, j’y retrouve encore mes marques.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;D’ici 5 ans à peu près ils vont démenager, rassembler tous les campus.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Par rapport aux pots, tant qu’on connaisait encore des étudiants, mais quand tu déboules et que tu connais personne, même si maintenant vous avez une approche.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Mais ça ferait plaisir que vous passiez une tête une fois.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Je te le dis honnêtement non.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Je comprends, en tout cas vous êtes les bienvenus et vous le savez.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;C’est gentil.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Bah c’est chez vous !<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Si vous voulez plus d’info, et si vous voulez revenir un jour pour prendre plus de notes.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Carrément !<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;On est là à cette table là d’ailleurs.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Je voulais vous dire, quand je suis arrivé à l’école en 73, Cathé comme vous dites, la première chose qu’on m’a dit - «On va pas rester longtemps, l’école va déménager».<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Après c’est un sacré projet.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;En 73 Cathédrale devait déjà déménager.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;On va attendre encore un peu, en soit on sera même plus là.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Elle est où ta 2ème bière Gui ?<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Bah elle est finie.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Ah.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Non ça fait plaisir.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Nous aussi ça nous fait plaisir aussi de vous rencontrer.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Il faudrait que la prochaine fois on se voit un peu plus tôt.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Ouais on est arrivé un peu tard.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Ouais on travaillait un peu avant.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;De toute façon j’ai dit à Michel ils arriveront pas de bonnes heures parce que c’est vendredi soir il y a des pots.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Il y avait pas de pot mais, en ce moment c’est une période où on a pas mal de travail.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;On a les diplômes tout ça !<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Je comprends.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Et puis on tente d’autres écoles aussi, soit on reste et on finit 4ème/5ème ici, soit on change d’école pour essayer autres choses.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;T’es d’où toi ?<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Paris.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Et toi ?<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Paris aussi.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Non pas Paris !<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;92<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Banlieue, banlieue, moi je suis de Paris.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Région parisienne.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;C’est comme Michel qui dit qu il est de la région, moi je suis de Reims lui il est des Ardennes.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Moi je suis de Paris Paris Paris ! Ouais et elle, elles est...<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Les Ardennes... C’est des sauvages là bas !<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est tellement bien que vous ayez gardé ce moment tous les deux toutes les semaines !<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Et les conneries qu’on continue à raconter d’ailleurs.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Et puis ça fait super plaisir que vous soyez là et que vous nous parliez de tout ça.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp; De toute manière vous avez les coordonnées du vieux machin.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;C’est une belle histoire que vous soyez là 30 ans après à boire des coups ensemble.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;On se connait en dehors du bistrot quand même mais c’est notre point de repère.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Ah le vendredi soir c’est...<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Ouais c’est beau, alors on radote évidemment.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Et vous faites quoi maintenant ?<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Je suis en retraite, je m’occupe de mon épouse.<br>
+&nbsp;&nbsp;&nbsp;G.A &nbsp;&nbsp;&nbsp;Et ça boit des coups à l’Escale.<br>
+&nbsp;&nbsp;&nbsp;F.A &nbsp;&nbsp;&nbsp;Et je m’occupe de mon gamin et de ma petite fille.<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Et puis moi j’ai arrêté de peindre parce que..<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Ah vous peignez ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Ouais je peignais un peu, enfin sans prétention.<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Par plaisir quoi !<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Bah j’ai fait toujours peint mais surtout l’écriture.<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;*Départs en double discussion Guillaume/François et Hoyam/Michel*<br>
+&nbsp;&nbsp;&nbsp;H.M &nbsp;&nbsp;&nbsp;Comment on vit l’après ESAD ? Après l’aventure ESAD ? Parce que nous on la vit en tant qu’étudiant maintenant mais vous en tant que membre pendant 30 ans ?<br>
+&nbsp;&nbsp;&nbsp;M.R &nbsp;&nbsp;&nbsp;Disons que j’ai une retraite pas mal, normal, donc ça va niveau pognon, ça se passe pas trop mal, mais l’après ESAD c’est ça, j’ai arreté de peindre parce que c’est trop le bordel, il faut un atelier si tu veux te lâcher, chez moi avec la moquette, parfois tu passes plus de temps à protéger qu’a peindre, et puis faut net- toyer le lavabo donc j’ai arrété.<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;*Malheureusement nous n’avons pas la fin de l’enregistrement, la discussion se terminait, leurs derniers mots nous conseillaient de profiter de notre vie, de nous amuser, c’est sur ces mots qu’on a stoppé cette belle discussion*<br>
+
+        
+        </a>
+    </div>
+
+
+
+</body>
+
+</html>
